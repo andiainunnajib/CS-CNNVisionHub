@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Stlite App</title>
-</head>
-<body>
-  <script src="https://whitphx.github.io/stlite/lib/application/stlite.js" ></script>
-  <script>
-    stlite.mount({
-      mainScriptData: `
 import os
 import numpy as np
 from skimage import io, color, transform
@@ -614,9 +601,3 @@ with cv_tab:
     # st.text("- Certified Machine Learning Engineer (Certification Body, Year)")
     # st.text("- Deep Learning Specialization (Coursera, Year)")
     # # ... add more certifications
-    })
-  </script>
-</body>
- 
-
-</html>
